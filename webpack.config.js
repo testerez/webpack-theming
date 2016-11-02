@@ -5,7 +5,7 @@ let extractCSS = new ExtractTextPlugin('[name].css');
 let extractCSS_theme1 = new ExtractTextPlugin('[name].theme1.css');
 
 module.exports = {
-  entry: "./index.js",
+  entry: "./src/index.js",
   output: {
     path: 'dist',
     filename: "bundle.js"
